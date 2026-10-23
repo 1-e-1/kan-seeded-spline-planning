@@ -1,0 +1,8 @@
+# Optional dependencies: install only for the corresponding research branch.
+torchvision
+h5py
+scikit-learn
+psutil
+osqp
+trimesh
+python-fcl

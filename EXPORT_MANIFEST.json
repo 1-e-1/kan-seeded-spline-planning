@@ -1,0 +1,683 @@
+{
+  "date": "2026-10-24",
+  "owner": "1-e-1",
+  "method": "Frozen KAN warm start and duration-normalized spline optimization with explicit geometric acceptance",
+  "files": [
+    {
+      "path": "configs/model_h128.yaml",
+      "source_project": "v63",
+      "source_path": "configs/model_h128.yaml",
+      "sha256_original": "7be388ed4e26c2d21c23436074fbc247caf6a7e1635eb71b25825994002b8422",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/model_h64.yaml",
+      "source_project": "v63",
+      "source_path": "configs/model_h64.yaml",
+      "sha256_original": "1b8d8b9a462e088dcbf9eb5dbfba63af3065742574ee67fd2e7baca093587c98",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/paths.yaml",
+      "source_project": "v63",
+      "source_path": "configs/paths.yaml",
+      "sha256_original": "cc4771ee46dc5cec598f10925d50ac847e308fd43a8f4846f2b38329cd52e667",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/robot.yaml",
+      "source_project": "v63",
+      "source_path": "configs/robot.yaml",
+      "sha256_original": "bc7684bbd68ff7dc686f069b9d1f5b37c1ef461d5763b10f65d0986a997c0e65",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/simulation.yaml",
+      "source_project": "v63",
+      "source_path": "configs/simulation.yaml",
+      "sha256_original": "225a4818aeffc10878a367805ffbe0cf68970dd68194a54d16a7d2ea400a9f85",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/stage2_batch.yaml",
+      "source_project": "v63",
+      "source_path": "configs/stage2_batch.yaml",
+      "sha256_original": "1566f26f2a86ac5015839d431b890d30a813a732c55d5b259243920770978dae",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/training.yaml",
+      "source_project": "v63",
+      "source_path": "configs/training.yaml",
+      "sha256_original": "184eecb38cf2d6a7315c48ee100b0af2dfd419aaa0c239ae1d77f258e839f8e9",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "scripts/audit_curobo_native.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_curobo_native.py",
+      "sha256_original": "0ada85e536bee9c2c23c09b0fd2ab0a01a89e2dc6b1cbebbc0b8bd40343e5114",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_curobo_spheres.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_curobo_spheres.py",
+      "sha256_original": "7a54eadee98b84249d82d571b97d5b5437a9e03d035c5ef35131c14973154309",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_moving_spline_boundary.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_moving_spline_boundary.py",
+      "sha256_original": "76046ee7241707db6c4f62ce6d3aaafcdca087965bbe16793eb5b29a98203cbd",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_moving_spline_development.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_moving_spline_development.py",
+      "sha256_original": "05d82e6f51117df72ddb27b487c0d62b5b73f06fafd0b899bd547033c96f2481",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_native_spline_adjoint.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_native_spline_adjoint.py",
+      "sha256_original": "6d895daac687b71b81730598a66e19d66c103ce72132b91c5f4aee3ef64c2bb1",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_native_spline_sampling.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_native_spline_sampling.py",
+      "sha256_original": "19ba39875ede35144fe30928378b6375e72cc370fdee041984112e3b165a099f",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_normalized_spline_adapter.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_normalized_spline_adapter.py",
+      "sha256_original": "15ed15bb24f6ce57be2d291a2d8259a0b71cb6d9aec442f5c313f5a4978ab6f2",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_online_spline_handoff.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_online_spline_handoff.py",
+      "sha256_original": "d3610522750bd7ed96fc9932302c9a2085a2a704fccf5bbf56607e6fa13b3381",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_portable_fcl.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_portable_fcl.py",
+      "sha256_original": "0d26097363b0395ce5636698be5365d80ba742c418580059dccac4ce3bc10a1a",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/audit_spline_repeat.py",
+      "source_project": "v63",
+      "source_path": "scripts/audit_spline_repeat.py",
+      "sha256_original": "7c481dabfe4b408070546d6e589d840c4fc138ab1ba94816958fdd40ec56baaa",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/build_curobo_scene.py",
+      "source_project": "v63",
+      "source_path": "scripts/build_curobo_scene.py",
+      "sha256_original": "6ce2d046471acf02860a5d5081df27c7cfea71729aa34435346b159b505f1533",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/build_spline_seed_encoder.py",
+      "source_project": "v63",
+      "source_path": "scripts/build_spline_seed_encoder.py",
+      "sha256_original": "78db0244b3bbeb84ef81d5eeacd002af56dc7247e4eb4dd3f2d3464ea184cdd2",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/compare_native_splines.py",
+      "source_project": "v63",
+      "source_path": "scripts/compare_native_splines.py",
+      "sha256_original": "fe40dd2e8b560faf2bd1f405713ec956ca493fe1abe49403e58a468937df4e3b",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/compare_paper_environment_splines.py",
+      "source_project": "v63",
+      "source_path": "scripts/compare_paper_environment_splines.py",
+      "sha256_original": "51e56f20ad6294935f9bb56c3d1c38aa83550cc9da0c36eec47d1b6ae0e66233",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/evaluate_curobo_development.py",
+      "source_project": "v63",
+      "source_path": "scripts/evaluate_curobo_development.py",
+      "sha256_original": "c2a52a5d0a9f675f19bef8f65d898e4a63fee849f82f4690ce9df272f2af15c9",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/evaluate_exact_spline.py",
+      "source_project": "v63",
+      "source_path": "scripts/evaluate_exact_spline.py",
+      "sha256_original": "b0a2bee0b5dc9ffc7f2a41f0c64d107243a521d194e31445b6e3c071cf4f5400",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/export_portable_scene.py",
+      "source_project": "v63",
+      "source_path": "scripts/export_portable_scene.py",
+      "sha256_original": "dbdceb362f264b39e560ab16d4cb8ca864b63a5f67d04d931c877c2f4f0457f3",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/freeze_spline_confirmation.py",
+      "source_project": "v63",
+      "source_path": "scripts/freeze_spline_confirmation.py",
+      "sha256_original": "693c0525a62f818f6c5e5c58e0d4bf60018a7d7778a923d72ebcf92ca1dcb618",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/generate_portable_holdout.py",
+      "source_project": "v63",
+      "source_path": "scripts/generate_portable_holdout.py",
+      "sha256_original": "0c470e2a8a83e093511ebc4ef261c6a7ff88478c940af8229844c8c85efc4cdc",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/inspect_spline_delivery_geometry.py",
+      "source_project": "v63",
+      "source_path": "scripts/inspect_spline_delivery_geometry.py",
+      "sha256_original": "720e33aedc04979310a1230e6db58eae0c02fbd1f5998012abdb83ef389fb209",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/render_simple_spline_video.py",
+      "source_project": "v63",
+      "source_path": "scripts/render_simple_spline_video.py",
+      "sha256_original": "d51b916b664cfaa5120399bd0ae15fd7a56a4d4f5a97a6743365c04cf6119437",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/report_paper_matched_planning.py",
+      "source_project": "v63",
+      "source_path": "scripts/report_paper_matched_planning.py",
+      "sha256_original": "4b93cd6298a3f20b32984ae9295715dc921794f0bd8ab138dd24d68ba9a0d7d3",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/report_spline_confirmation.py",
+      "source_project": "v63",
+      "source_path": "scripts/report_spline_confirmation.py",
+      "sha256_original": "09e65de28a08a7a85ae43327f59728e5c5fbf11bb2727f02bdf601db291ad005",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/summarize_online_spline_audit.py",
+      "source_project": "v63",
+      "source_path": "scripts/summarize_online_spline_audit.py",
+      "sha256_original": "e94cc5fe661c7dde608a1df5778b97a4344d6bbd0a9613d34331003f8a07340f",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/summarize_spline_development.py",
+      "source_project": "v63",
+      "source_path": "scripts/summarize_spline_development.py",
+      "sha256_original": "cae6828aaa7c9e83135ede7368e06c5b55eb4d0f57061a6c801286f05452ac01",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/test_curobo_mesh_regression.py",
+      "source_project": "v63",
+      "source_path": "scripts/test_curobo_mesh_regression.py",
+      "sha256_original": "3dad526d4520ce6e9d2783ded86469d564e2b008fd3df2e0ef6ab9824a033874",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/verify_simple_spline_video.py",
+      "source_project": "v63",
+      "source_path": "scripts/verify_simple_spline_video.py",
+      "sha256_original": "0ef7b8df2a0a92d9780ce407467c09e6ea62ffdd14885e71152e521c11c7dd47",
+      "role": "primary"
+    },
+    {
+      "path": "src/__init__.py",
+      "source_project": "v63",
+      "source_path": "src/__init__.py",
+      "sha256_original": "3f111d62e7bed33de472281f26744e14d4b5c54ab6ed1f4e602d8ae6e80ba4d3",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/data/__init__.py",
+      "source_project": "v63",
+      "source_path": "src/data/__init__.py",
+      "sha256_original": "6520e5e6cd327a0c32de30dda5da8f56ff168eb42df4fdca7f143ef4edda71e0",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/data/dagger_buffer.py",
+      "source_project": "v63",
+      "source_path": "src/data/dagger_buffer.py",
+      "sha256_original": "aefbab8096bc045c887ef27d63adea60dd98bab2fccb8f20206773bc1bf8cbab",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/data/dataset.py",
+      "source_project": "v63",
+      "source_path": "src/data/dataset.py",
+      "sha256_original": "b05ae82b3c8bf5d12d786a73c21d3a49371b7bb8ed37ccb6111537b96c431320",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/data/generator.py",
+      "source_project": "v63",
+      "source_path": "src/data/generator.py",
+      "sha256_original": "3c1cc451c879f65bf62d0527a10bea31d71dd33aea7fee88df6941ea456e323e",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/data/normalization.py",
+      "source_project": "v63",
+      "source_path": "src/data/normalization.py",
+      "sha256_original": "edfa38660e39dc74407ec7c845c7068ee085a8ef78a5daa49bf67b997bb965d8",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/data/strict_expert.py",
+      "source_project": "v63",
+      "source_path": "src/data/strict_expert.py",
+      "sha256_original": "7e8783ceb70622b85e49b3bf509f7d822149205a2669f58f5d275efe3506620f",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/env/__init__.py",
+      "source_project": "v63",
+      "source_path": "src/env/__init__.py",
+      "sha256_original": "a4bd2af247706c133869c0cb4e9d14235c1df1fb4c71009102aa940bcb830784",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/env/collision_monitor.py",
+      "source_project": "v63",
+      "source_path": "src/env/collision_monitor.py",
+      "sha256_original": "05a44cfac6229a369233632654ef566bbad2600a814701ad675f05bc61433468",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/env/dual_arm_scene.py",
+      "source_project": "v63",
+      "source_path": "src/env/dual_arm_scene.py",
+      "sha256_original": "baddb770dacba82ff2026768d40617d6e0bd5b08f109ab4c09aec510a851a14e",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/env/state_reader.py",
+      "source_project": "v63",
+      "source_path": "src/env/state_reader.py",
+      "sha256_original": "69906c95c239a7e634e33fce3ef3a21d64f08619562f6ef6843ab3f9b1ca7e69",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/__init__.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/__init__.py",
+      "sha256_original": "84775ea6bae292d77b9f7a9a8cb8fa381c488e5e048556386b0adb404ac89456",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/base_frame.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/base_frame.py",
+      "sha256_original": "4b0eee686f592f0c16273f15488b106289228d1ccccd305d9226c479c83fa42c",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/contact_labels.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/contact_labels.py",
+      "sha256_original": "7b34a4ce45a08bdb226c2bd3384b2d6bc70289ab2d0a1aa75a53b7f2553d0e83",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/convex_distance.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/convex_distance.py",
+      "sha256_original": "c6985369d01dffcfa2d4e84c0bbf537c207aab22bfa6d3b4bb092d15c2d82589",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/cooked_scene_distance.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/cooked_scene_distance.py",
+      "sha256_original": "67bf4dc81d41ea45ee51c3f93bb0b505c333fa4590e053b8b15978a12f543cbd",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/kinematic_jets.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/kinematic_jets.py",
+      "sha256_original": "a39ec386c24c7d5d7af86cb83aff74db49be9cd5e1e7e5513d9ac7a13cb154c9",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/periodic.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/periodic.py",
+      "sha256_original": "da6ca953b73c2e167d230f7d06afc24fd043df35609a1b4537d25a23de845177",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/physx_clearance.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/physx_clearance.py",
+      "sha256_original": "9f2358edfc73d116104c8b938a632d0d9bd7b815a33b96f1b620fa8258ada0ac",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/portable_scene.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/portable_scene.py",
+      "sha256_original": "bf4f35c71727b228ac75cf35d3f82e547c91b218052dc66509bf47a418d5b311",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/rotations.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/rotations.py",
+      "sha256_original": "860346292e5531e9f7628915a7f86ea52209aaab003c1f221dd71fc83d112fce",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/geometry/sphere_reach.py",
+      "source_project": "v63",
+      "source_path": "src/geometry/sphere_reach.py",
+      "sha256_original": "1b82804e5e3843d56abd50bda324df719a8ab0623cbc93461452bb23ac184c89",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/models/__init__.py",
+      "source_project": "v63",
+      "source_path": "src/models/__init__.py",
+      "sha256_original": "1597971c58f431e16f8303abfc740c1ff0e1da5ddb25458350b34ddd852b796b",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/models/collision_head.py",
+      "source_project": "v63",
+      "source_path": "src/models/collision_head.py",
+      "sha256_original": "4a135ffcd25884b1e382af62fe41316c4316751c8e6a904ded3f4ff8def50438",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/models/full_kan.py",
+      "source_project": "v63",
+      "source_path": "src/models/full_kan.py",
+      "sha256_original": "374faec6aeee970fbb11dea90ea1e0f9b193a8edb1ab6d9b4ff8dae24cc88f75",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/models/kan.py",
+      "source_project": "v63",
+      "source_path": "src/models/kan.py",
+      "sha256_original": "296a94f496c20b45803a6c2235379ca47e6ed18a12f96bba17ac50fd40c01ac1",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/models/mlp.py",
+      "source_project": "v63",
+      "source_path": "src/models/mlp.py",
+      "sha256_original": "b41bb3eee5a1818781a7caa7108048b3082bd7e284c9afc18d32ed47fe5063e2",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/models/tokenizer.py",
+      "source_project": "v63",
+      "source_path": "src/models/tokenizer.py",
+      "sha256_original": "3916167e2f56c526de6223523f1f75ca903192d654c5775f9afcbf773e6814d8",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/models/trajectory_model.py",
+      "source_project": "v63",
+      "source_path": "src/models/trajectory_model.py",
+      "sha256_original": "af64272ded6fb17578872ec5677720048b12d5295efc9d99b5669a2b30a347b3",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/models/transformer.py",
+      "source_project": "v63",
+      "source_path": "src/models/transformer.py",
+      "sha256_original": "c8dec7595c294238f090416a3f86a39780ccd64f6647339826a9c60b1e14c685",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/__init__.py",
+      "source_project": "v63",
+      "source_path": "src/planning/__init__.py",
+      "sha256_original": "1d8ff7b07aa1ae36f3d3305a8bd4b381463236c8ffa89510cba52a75224d3ccb",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/benchmark_acceptance.py",
+      "source_project": "v63",
+      "source_path": "src/planning/benchmark_acceptance.py",
+      "sha256_original": "220b546015d4f24ad75f21aa474ed58631b226949fc6ec70756b7adebcccd9e0",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/benchmark_gpu_lock.py",
+      "source_project": "v63",
+      "source_path": "src/planning/benchmark_gpu_lock.py",
+      "sha256_original": "aa66a2c8763b78315bfd05a235cdbc2eb4d14d20ac7aaa1d028c2e85e5db3801",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/c2_trajectory_buffer.py",
+      "source_project": "v63",
+      "source_path": "src/planning/c2_trajectory_buffer.py",
+      "sha256_original": "1162db8f1b90d8041e8dd69647e1da81c40044fb17dae1ebe227b4c9be60e352",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/collision_aware_teacher.py",
+      "source_project": "v63",
+      "source_path": "src/planning/collision_aware_teacher.py",
+      "sha256_original": "18de9e40b9ae273ed0962bfe31bab7f0be6db4781f31a80ddc44815a7186debb",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/contact_validation_pool.py",
+      "source_project": "v63",
+      "source_path": "src/planning/contact_validation_pool.py",
+      "sha256_original": "4d73be38b3751f6f5e27780eb5925ad34ccb9005cb5bc046f12bec410c3695a1",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/cpu_collision_validation.py",
+      "source_project": "v63",
+      "source_path": "src/planning/cpu_collision_validation.py",
+      "sha256_original": "8c573d2e8e53f75e66654fc2412a067512a7c356f25b94ebce8f0f49bcc14de8",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/cubic_execution_curve.py",
+      "source_project": "v63",
+      "source_path": "src/planning/cubic_execution_curve.py",
+      "sha256_original": "4d966c6f9185994dfc971895e8b495652b265ba7cf8ffd7a4b076f0a8553bc97",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/curobo_adapter.py",
+      "source_project": "v63",
+      "source_path": "src/planning/curobo_adapter.py",
+      "sha256_original": "f0aa2472e0862d86522e5b004656f54eb7282b8b8ac88d058d379fb6c7633e15",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/exact_spline.py",
+      "source_project": "v63",
+      "source_path": "src/planning/exact_spline.py",
+      "sha256_original": "c7456a9fc22501c87f52053d89a6f71f7049861c121aa0eec3eb0a7a1a17d5cb",
+      "role": "primary"
+    },
+    {
+      "path": "src/planning/expert_interface.py",
+      "source_project": "v63",
+      "source_path": "src/planning/expert_interface.py",
+      "sha256_original": "6158d01ac5d4f7cee9c68cd7628200a92e820bcae2bb1bd8ed90aebff1e78744",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/fixed_spline_clock.py",
+      "source_project": "v63",
+      "source_path": "src/planning/fixed_spline_clock.py",
+      "sha256_original": "309a6d05923f628b3601a57114651464d91efe414147f8d93984e317c7464021",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/graph_policy.py",
+      "source_project": "v63",
+      "source_path": "src/planning/graph_policy.py",
+      "sha256_original": "2383b7d7aee1cdae76f3aea76388ea7d2b5827f92b7ae819ef65e957298ea2ef",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/kan_seed.py",
+      "source_project": "v63",
+      "source_path": "src/planning/kan_seed.py",
+      "sha256_original": "1e793d23ee4b905ad00fa2e089d59b3a14ab419d8379904b391db9b34a353d2a",
+      "role": "primary"
+    },
+    {
+      "path": "src/planning/moving_horizon_guess.py",
+      "source_project": "v63",
+      "source_path": "src/planning/moving_horizon_guess.py",
+      "sha256_original": "3af209f876c878ad40fa1534441c7d715169c08a8135890fc7970186ba8fea61",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/native_spline_sampling.py",
+      "source_project": "v63",
+      "source_path": "src/planning/native_spline_sampling.py",
+      "sha256_original": "359f3eed16716173ad0b9d9496c6d500c2ca13fb6cdef0f55026cb49d1aba536",
+      "role": "primary"
+    },
+    {
+      "path": "src/planning/normalized_spline_objective.py",
+      "source_project": "v63",
+      "source_path": "src/planning/normalized_spline_objective.py",
+      "sha256_original": "c6070551ede807b253d14e7e290443259059a90f4237bfe21ed4de01d5db37af",
+      "role": "primary"
+    },
+    {
+      "path": "src/planning/normalized_spline_planner.py",
+      "source_project": "v63",
+      "source_path": "src/planning/normalized_spline_planner.py",
+      "sha256_original": "2bcfc1d67e85bab3682aabbc8b0751d0a3db106e0b2ac4a9b836d0e459aaaf21",
+      "role": "primary"
+    },
+    {
+      "path": "src/planning/paired_statistics.py",
+      "source_project": "v63",
+      "source_path": "src/planning/paired_statistics.py",
+      "sha256_original": "8eef81135db1fbe45c1f7c7d7552f6f73dbd8e78543a434ade2e8455e344b556",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/quintic_teacher.py",
+      "source_project": "v63",
+      "source_path": "src/planning/quintic_teacher.py",
+      "sha256_original": "29eab6c944bda50381f82b721e068b7f1ce99e02ff502b07009d2fefd5504b63",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/rrt_connect.py",
+      "source_project": "v63",
+      "source_path": "src/planning/rrt_connect.py",
+      "sha256_original": "4004a6e065254d36241745ce9b404e9473f1a42dc6e01bddc008e527e6f87f35",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/smooth_execution.py",
+      "source_project": "v63",
+      "source_path": "src/planning/smooth_execution.py",
+      "sha256_original": "08c53c2680f7f0c6efc1641664070b2bf4f1af17b2e0f27922cae8d5e4c2b202",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "src/planning/spline_seed_encoding.py",
+      "source_project": "v63",
+      "source_path": "src/planning/spline_seed_encoding.py",
+      "sha256_original": "e9474a952060dcdab605498d1e4f87a690e022a295b1c73b7a6b3d420a11be9c",
+      "role": "primary"
+    },
+    {
+      "path": "src/planning/tcp_spline_objective.py",
+      "source_project": "v63",
+      "source_path": "src/planning/tcp_spline_objective.py",
+      "sha256_original": "d59d3ee7eb1fb8f609a1c92fea1301239c09abf57a3179ad6d3b5ac19a15f220",
+      "role": "primary"
+    },
+    {
+      "path": "src/planning/trajectory_retimer.py",
+      "source_project": "v63",
+      "source_path": "src/planning/trajectory_retimer.py",
+      "sha256_original": "cd36b5f98d801354f9478cfb2b0540fbf7b96bad0575ce72fda3615f660abcb7",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "tests/test_c2_trajectory_buffer.py",
+      "source_project": "v63",
+      "source_path": "tests/test_c2_trajectory_buffer.py",
+      "sha256_original": "0f4eabb5f4ae8acd6ae5b1205445838aed5018422e71898fe48d0e455b338ad9",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_cubic_execution_curve.py",
+      "source_project": "v63",
+      "source_path": "tests/test_cubic_execution_curve.py",
+      "sha256_original": "3cbaa20364e931ed86af685057997bc8c82aeafb005537db66dd111b3fc7bfd7",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_moving_horizon_guess.py",
+      "source_project": "v63",
+      "source_path": "tests/test_moving_horizon_guess.py",
+      "sha256_original": "2ac313913b6a3d5258b9a4dce445114871a854cbdf669273f017c896203d3193",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_normalized_spline_objective.py",
+      "source_project": "v63",
+      "source_path": "tests/test_normalized_spline_objective.py",
+      "sha256_original": "aba51645b43f95b936e4eff7f09f3520f61719bdbfe42d1b77a2fe0115bdf2fb",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_paired_statistics.py",
+      "source_project": "v63",
+      "source_path": "tests/test_paired_statistics.py",
+      "sha256_original": "4c30aafbfdffb7e1276b595ef8adfc34a78c2b1eca72a7a8b10413803ce9d9bf",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_spline_seed_encoding.py",
+      "source_project": "v63",
+      "source_path": "tests/test_spline_seed_encoding.py",
+      "sha256_original": "a88866b0b1fac765a76c24279d954bcc13f9ca2e7acf8cafd6a17e0600cfc035",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_tcp_spline_objective.py",
+      "source_project": "v63",
+      "source_path": "tests/test_tcp_spline_objective.py",
+      "sha256_original": "15c172c1c544be2b2cad41c879e130194d48cf3dba5a430ad1d1f13cefde5da4",
+      "role": "primary"
+    }
+  ],
+  "portability_edits": [
+    "configs/paths.yaml"
+  ],
+  "note": "Source hashes refer to original files before export-only path edits. Generated publication files are additional."
+}
